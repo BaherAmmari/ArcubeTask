@@ -1,0 +1,36 @@
+
+.layout {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #67b26f 10%, #4ca2cd 100%);
+}
+
+.header {
+  background: #fff;
+  padding: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  text-align: center;
+  margin-top: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: calc(100vh - 64px);
+  padding: 20px;
+}
+
+.form-card {
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
