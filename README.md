@@ -147,8 +147,44 @@ frontend/
 │   ├── App.tsx                     # Main entry point of the React application
 │   ├── index.tsx                   # ReactDOM rendering
 │   └── style/                      # Global CSS styles
-├── .env                             # Environment variables (e.g., backend API URL)
+├── .env                            # Environment variables (e.g., backend API URL)
 ├── package.json                    # Project dependencies and scripts
 ├── tsconfig.json                   # TypeScript configuration
 └── README.md           
+
+# URL Shortener Install
+
+Before you begin, make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) (package managers)
+
+## Installation du Frontend avec Vite
+
+1. Clonez le projet sur votre machine :
+   ```bash
+   git clone <URL_du_projet>
+   cd frontend
+   npm install
+   # ou avec yarn
+   yarn install
+   npm run dev
+   # ou avec yarn
+   yarn dev
+## Installation du Backend avec Express
+
+1. Clonez le projet sur votre machine :
+   ```bash
+   git clone <URL_du_projet>
+   cd backend
+   npm install
+   # ou avec yarn
+   yarn install
+   npm start
+   # ou avec yarn
+   yarn start
+   Tests :
+   npm test
+   # ou avec yarn
+   yarn test
 
