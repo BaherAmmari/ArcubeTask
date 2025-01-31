@@ -187,4 +187,10 @@ Before you begin, make sure you have the following installed on your machine:
    npm test
    # ou avec yarn
    yarn test
+# Remarks
+
+I have added the QR code feature as an innovation in the project. Additionally, I worked with **React Context** for state management, but I am also familiar with **Redux**. Given the relatively low complexity of the project, I chose to use Context instead of Redux.
+
+For the backend, I have one year of experience working with **NestJS**, but since the complexity of the project is not high, I decided to go with **Express.js** for simplicity and faster development.
+
 
